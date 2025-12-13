@@ -14,7 +14,8 @@ export interface Article {
 
 export function getAllArticles(): Article[] {
     if (!fs.existsSync(contentDir)) return [];
-    const files = fs.readdirSync(contentDir);
+    const files = fs.readdirSync(contentDir).filter(f => f.endsWith('.md'));
+    if (files.length === 0) return [];
     return files.map((file) => {
         const slug = file.replace(/\.md$/, '');
         const fullPath = path.join(contentDir, file);
