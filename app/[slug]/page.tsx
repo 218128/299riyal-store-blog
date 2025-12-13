@@ -1,4 +1,4 @@
-import { getArticleBySlug, getAllArticles } from '@/lib/content';
+import { getArticleBySlug, getAllArticles } from '../../lib/content';
 import ReactMarkdown from 'react-markdown';
 
 export async function generateStaticParams() {
