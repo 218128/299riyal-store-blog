@@ -6,14 +6,56 @@ export async function generateStaticParams() {
     return articles.map((article) => ({ slug: article.slug }));
 }
 
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+    const { slug } = await params;
+    const article = getArticleBySlug(slug);
+    return {
+        title: article?.title || 'Article',
+        description: article?.description || '',
+    };
+}
+
 export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
     const { slug } = await params;
     const article = getArticleBySlug(slug);
-    if (!article) return <div>Not found</div>;
+    
+    if (!article) {
+        return (
+            <div className="article">
+                <div className="content-wrapper" style={{ textAlign: 'center' }}>
+                    <h1>Article Not Found</h1>
+                    <p>The article you're looking for doesn't exist.</p>
+                </div>
+            </div>
+        );
+    }
+    
     return (
-        <main style={{ maxWidth: '800px', margin: '0 auto', padding: '2rem' }}>
-            <h1>{article.title}</h1>
-            <ReactMarkdown>{article.content}</ReactMarkdown>
-        </main>
+        <article className="article">
+            <header className="article-header">
+                <h1>{article.title}</h1>
+                <div className="article-meta">
+                    <div className="article-author">
+                        <span className="author-avatar">AA</span>
+                        <span>Ahmed Al-Rashid</span>
+                    </div>
+                    <span>•</span>
+                    <span>{article.date}</span>
+                </div>
+            </header>
+            
+            <div className="article-content">
+                <ReactMarkdown>{article.content}</ReactMarkdown>
+            </div>
+            
+            <div className="author-box">
+                <div className="author-box-avatar">AA</div>
+                <div className="author-box-content">
+                    <h4>Ahmed Al-Rashid</h4>
+                    <p className="author-box-role">Tech Editor</p>
+                    <p className="author-box-bio">Tech enthusiast with 8+ years helping Saudi shoppers find the best deals on quality gadgets.</p>
+                </div>
+            </div>
+        </article>
     );
 }
