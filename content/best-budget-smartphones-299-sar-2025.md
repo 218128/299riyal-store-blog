@@ -4,7 +4,7 @@ description: "Complete guide to the best budget smartphones under 299 SAR for Sa
 date: "2025-12-14"
 author: "Omar Al-Rashid"
 category: "Smartphones"
-featuredImage: "/images/budget-smartphones-saudi-2025.jpg"
+image: "/images/best-budget-smartphones-299-sar-2025.png"
 ---
 
 # Best Budget Smartphones Under 299 SAR in Saudi Arabia 2025

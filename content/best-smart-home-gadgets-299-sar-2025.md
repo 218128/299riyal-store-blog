@@ -4,7 +4,7 @@ description: "Transform your home on a budget with the best smart home gadgets u
 date: "2025-12-14"
 author: "Omar Al-Rashid"
 category: "Smart Home"
-featuredImage: "/images/smart-home-gadgets-saudi-2025.jpg"
+image: "/images/best-smart-home-gadgets-299-sar-2025.png"
 ---
 
 # Best Smart Home Gadgets Under 299 SAR in Saudi Arabia 2025

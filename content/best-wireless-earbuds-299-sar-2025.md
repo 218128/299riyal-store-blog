@@ -4,7 +4,7 @@ description: "Find the perfect wireless earbuds under 299 SAR. Expert reviews of
 date: "2025-12-14"
 author: "Omar Al-Rashid"
 category: "Audio"
-featuredImage: "/images/wireless-earbuds-saudi-2025.jpg"
+image: "/images/best-wireless-earbuds-299-sar-2025.png"
 ---
 
 # Best Wireless Earbuds Under 299 SAR in Saudi Arabia (2025)

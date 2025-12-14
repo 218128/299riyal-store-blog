@@ -4,7 +4,7 @@ description: "Level up your gaming setup without breaking the bank. Expert revie
 date: "2025-12-14"
 author: "Omar Al-Rashid"
 category: "Gaming"
-featuredImage: "/images/gaming-accessories-saudi-2025.jpg"
+image: "/images/best-gaming-accessories-299-sar-2025.png"
 ---
 
 # Best Gaming Accessories Under 299 SAR in Saudi Arabia 2025
