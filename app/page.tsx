@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Home() {
     const articles = getAllArticles();
-    
+
     return (
         <>
             <section className="hero">
@@ -12,7 +12,7 @@ export default function Home() {
                     <p className="hero-tagline">Best Tech Under 299 SAR</p>
                 </div>
             </section>
-            
+
             <section className="container">
                 {articles.length === 0 ? (
                     <div style={{ textAlign: 'center', padding: '4rem 0' }}>
@@ -24,7 +24,17 @@ export default function Home() {
                     <div className="articles-grid">
                         {articles.map((article) => (
                             <article key={article.slug} className="article-card">
-                                <div className="article-card-image">📄</div>
+                                <div className="article-card-image">
+                                    {article.image ? (
+                                        <img
+                                            src={article.image}
+                                            alt={article.title}
+                                            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                        />
+                                    ) : (
+                                        '📄'
+                                    )}
+                                </div>
                                 <div className="article-card-content">
                                     <span className="article-card-category">Article</span>
                                     <h3>
