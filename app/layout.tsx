@@ -1,6 +1,5 @@
 import './globals.css';
 import Link from 'next/link';
-import Script from 'next/script';
 
 export const metadata = {
     title: '299Riyal',
@@ -11,12 +10,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     return (
         <html lang="en">
             <head>
-                <Script
-                    id="google-adsense"
+                <script
                     async
                     src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1658375151633555"
                     crossOrigin="anonymous"
-                    strategy="beforeInteractive"
                 />
             </head>
             <body>
