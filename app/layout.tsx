@@ -3,18 +3,16 @@ import Link from 'next/link';
 
 export const metadata = {
     title: '299Riyal',
-    description: 'Best Tech Under 299 SAR',
+    description: 'Your trusted source for quality content',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
         <html lang="en">
             <head>
-                <script
-                    async
-                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1658375151633555"
-                    crossOrigin="anonymous"
-                />
+                
+                {/* Umami Analytics - Optional */}
+                
             </head>
             <body>
                 <header className="header">
@@ -37,7 +35,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                         <div className="footer-section">
                             <h5>299Riyal</h5>
                             <p style={{ color: 'var(--color-text-muted)', fontSize: '0.875rem' }}>
-                                Best Tech Under 299 SAR
+                                Your trusted source for quality content
                             </p>
                         </div>
                         <div className="footer-section">
@@ -45,7 +43,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                             <ul>
                                 <li><Link href="/">Home</Link></li>
                                 <li><Link href="/about">About Us</Link></li>
-                                <li><Link href="/contact">Contact Us</Link></li>
                             </ul>
                         </div>
                         <div className="footer-section">
