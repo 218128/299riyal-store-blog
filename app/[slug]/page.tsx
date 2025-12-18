@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
     const { slug } = await params;
     const article = getArticleBySlug(slug);
-
+    
     if (!article) {
         return (
             <div className="article">
@@ -29,19 +29,10 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             </div>
         );
     }
-
+    
     return (
         <article className="article">
             <header className="article-header">
-                {article.image && (
-                    <div className="article-hero-image" style={{ marginBottom: '2rem' }}>
-                        <img
-                            src={article.image}
-                            alt={article.title}
-                            style={{ width: '100%', height: 'auto', borderRadius: '8px', objectFit: 'cover', maxHeight: '500px' }}
-                        />
-                    </div>
-                )}
                 <h1>{article.title}</h1>
                 <div className="article-meta">
                     <div className="article-author">
@@ -52,17 +43,17 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
                     <span>{article.date}</span>
                 </div>
             </header>
-
+            
             <div className="article-content">
                 <ReactMarkdown>{article.content}</ReactMarkdown>
             </div>
-
+            
             <div className="author-box">
                 <div className="author-box-avatar">AA</div>
                 <div className="author-box-content">
                     <h4>Ahmed Al-Rashid</h4>
-                    <p className="author-box-role">Tech Editor</p>
-                    <p className="author-box-bio">Tech enthusiast with 8+ years helping Saudi shoppers find the best deals on quality gadgets.</p>
+                    <p className="author-box-role">Tech Reviewer</p>
+                    <p className="author-box-bio">We are dedicated to bringing you the best content.</p>
                 </div>
             </div>
         </article>
