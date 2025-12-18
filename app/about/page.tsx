@@ -32,8 +32,8 @@ export default function AboutPage() {
                     <div className="author-box-avatar">AA</div>
                     <div className="author-box-content">
                         <h4>Ahmed Al-Rashid</h4>
-                        <p className="author-box-role">Tech Editor</p>
-                        <p className="author-box-bio">Tech enthusiast with 8+ years helping Saudi shoppers find the best deals on quality gadgets.</p>
+                        <p className="author-box-role">Tech Reviewer</p>
+                        <p className="author-box-bio">We are dedicated to bringing you the best content.</p>
                     </div>
                 </div>
             </section>
