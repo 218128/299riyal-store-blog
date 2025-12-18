@@ -24,7 +24,15 @@ export default function Home() {
                     <div className="articles-grid">
                         {articles.map((article) => (
                             <article key={article.slug} className="article-card">
-                                <div className="article-card-image">📄</div>
+                                <div className="article-card-image">
+                                    {article.image || article.featuredImage ? (
+                                        <img 
+                                            src={article.image || article.featuredImage} 
+                                            alt={article.title}
+                                            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                        />
+                                    ) : '📄'}
+                                </div>
                                 <div className="article-card-content">
                                     <span className="article-card-category">Article</span>
                                     <h3>
