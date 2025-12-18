@@ -11,30 +11,28 @@ export interface Article {
     description: string;
     author?: string;
     category?: string;
-    image?: string;
     content: string;
 }
 
 export function getAllArticles(): Article[] {
     if (!fs.existsSync(contentDir)) return [];
-
+    
     const files = fs.readdirSync(contentDir).filter(f => f.endsWith('.md'));
     if (files.length === 0) return [];
-
+    
     return files.map((file) => {
         const slug = file.replace(/\.md$/, '');
         const fullPath = path.join(contentDir, file);
         const fileContents = fs.readFileSync(fullPath, 'utf8');
         const { data, content } = matter(fileContents);
-
+        
         return {
             slug,
             title: data.title || slug,
-            date: data.date ? new Date(data.date).toISOString().split('T')[0] : new Date().toISOString().split('T')[0],
+            date: data.date || new Date().toISOString().split('T')[0],
             description: data.description || '',
             author: data.author,
             category: data.category,
-            image: data.image,
             content
         };
     }).sort((a, b) => (a.date < b.date ? 1 : -1));
@@ -45,15 +43,14 @@ export function getArticleBySlug(slug: string): Article | null {
         const fullPath = path.join(contentDir, `${slug}.md`);
         const fileContents = fs.readFileSync(fullPath, 'utf8');
         const { data, content } = matter(fileContents);
-
+        
         return {
             slug,
             title: data.title || slug,
-            date: data.date ? new Date(data.date).toISOString().split('T')[0] : new Date().toISOString().split('T')[0],
+            date: data.date || new Date().toISOString().split('T')[0],
             description: data.description || '',
             author: data.author,
             category: data.category,
-            image: data.image,
             content
         };
     } catch {
