@@ -13,7 +13,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 {/* Google AdSense - Native script for verification */}
                 <script
                     async
-                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=pub-1658375151633555"
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1658375151633555"
                     crossOrigin="anonymous"
                 />
                 {/* Umami Analytics - Optional */}
