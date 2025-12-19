@@ -24,10 +24,15 @@ import fs from 'fs';
         return new Date().toISOString().split('T')[0];
     }
 
+    // Structural page slugs to exclude from article listings
+    const STRUCTURAL_SLUGS = ['about', 'privacy', 'terms', 'contact', 'disclaimer'];
+
     export function getAllArticles(): Article[] {
         if (!fs.existsSync(contentDir)) return [];
 
-        const files = fs.readdirSync(contentDir).filter(f => f.endsWith('.md'));
+        const files = fs.readdirSync(contentDir)
+            .filter(f => f.endsWith('.md'))
+            .filter(f => !STRUCTURAL_SLUGS.includes(f.replace(/\.md$/, '')));
         if (files.length === 0) return [];
 
         return files.map((file) => {
