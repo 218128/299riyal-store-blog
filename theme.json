@@ -1,0 +1,56 @@
+{
+  "seed": "default-1766188841457-f3y6ld",
+  "niche": "default",
+  "mood": "corporate",
+  "generatedAt": 1766188841458,
+  "colors": {
+    "primary": "#14b8a6",
+    "primaryLight": "#3adecc",
+    "primaryDark": "#009280",
+    "secondary": "#f472b6",
+    "secondaryLight": "#ff98dc",
+    "cta": "#dc2626",
+    "ctaHover": "#c30d0d",
+    "background": "#ffffff",
+    "backgroundAlt": "#f8fafc",
+    "surface": "#ffffff",
+    "text": "#1f2937",
+    "textMuted": "#6b7280",
+    "border": "#e5e7eb",
+    "success": "#22c55e",
+    "warning": "#f59e0b",
+    "error": "#ef4444",
+    "info": "#3b82f6",
+    "gradientStart": "#0d9488",
+    "gradientEnd": "#ec4899",
+    "gradientDirection": "135deg"
+  },
+  "typography": {
+    "headingFont": "Merriweather",
+    "bodyFont": "Open Sans"
+  },
+  "components": {
+    "headerStyle": "fixed",
+    "cardStyle": "classic",
+    "buttonStyle": "solid"
+  },
+  "layoutVariant": {
+    "homepage": "featured-hero",
+    "articleGrid": "3-column",
+    "newsletter": "sidebar",
+    "headerLayout": "left-aligned",
+    "footerLayout": "simple",
+    "sidebarPosition": "none",
+    "articleLayout": "wide",
+    "adZones": {
+      "aboveFold": true,
+      "inFeed": true,
+      "inFeedFrequency": 3,
+      "sidebar": false,
+      "inArticle": true,
+      "inArticleFrequency": 400,
+      "footer": true,
+      "betweenSections": false
+    }
+  }
+}
