@@ -5,6 +5,7 @@ description: "# Cheap Alternatives to Expensive Flagship Phones  Let's be honest
 author: "Editorial Team"
 category: "listicles"
 tags: ["iPhone like phones cheap","Samsung S24 clone","budget premium phones"]
+image: "/images/cheap-alternatives-flagship-phones.png"
 ---
 
 # Cheap Alternatives to Expensive Flagship Phones

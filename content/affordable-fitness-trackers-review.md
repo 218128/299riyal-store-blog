@@ -5,6 +5,7 @@ description: "# Top 5 Affordable Fitness Trackers That Actually Work  With the i
 author: "Editorial Team"
 category: "reviews"
 tags: ["affordable fitness trackers","Xiaomi Smart Band","Huawei Band Saudi"]
+image: "/images/affordable-fitness-trackers-review.png"
 ---
 
 # Top 5 Affordable Fitness Trackers That Actually Work
