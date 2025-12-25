@@ -1,6 +1,6 @@
 ---
 title: "Cheap Alternatives to Expensive Flagship Phones"
-date: "2025-12-19"
+date: "2025-12-25"
 description: "# Cheap Alternatives to Expensive Flagship Phones  Let's be honest: in Saudi Arabia, the \"Look\" of your phone matters. Walking into a meeting or a cafe with a"
 author: "Editorial Team"
 category: "listicles"
