@@ -1,16 +1,16 @@
 {
-  "seed": "default-1766862816823-1mv3n5",
+  "seed": "default-1766862923299-5duna0",
   "niche": "default",
-  "mood": "corporate",
-  "generatedAt": 1766862816824,
+  "mood": "elegant",
+  "generatedAt": 1766862923299,
   "colors": {
-    "primary": "#14b8a6",
-    "primaryLight": "#3adecc",
-    "primaryDark": "#009280",
-    "secondary": "#f472b6",
-    "secondaryLight": "#ff98dc",
-    "cta": "#dc2626",
-    "ctaHover": "#c30d0d",
+    "primary": "#6366f1",
+    "primaryLight": "#898cff",
+    "primaryDark": "#3d40cb",
+    "secondary": "#22c55e",
+    "secondaryLight": "#48eb84",
+    "cta": "#ef4444",
+    "ctaHover": "#d62b2b",
     "background": "#ffffff",
     "backgroundAlt": "#f8fafc",
     "surface": "#ffffff",
@@ -21,36 +21,36 @@
     "warning": "#f59e0b",
     "error": "#ef4444",
     "info": "#3b82f6",
-    "gradientStart": "#0d9488",
-    "gradientEnd": "#ec4899",
-    "gradientDirection": "45deg"
+    "gradientStart": "#4f46e5",
+    "gradientEnd": "#16a34a",
+    "gradientDirection": "135deg"
   },
   "typography": {
-    "headingFont": "Manrope",
-    "bodyFont": "Inter"
+    "headingFont": "Crimson Pro",
+    "bodyFont": "Work Sans"
   },
   "components": {
-    "headerStyle": "fixed",
-    "cardStyle": "classic",
-    "buttonStyle": "solid"
+    "headerStyle": "static",
+    "cardStyle": "minimal",
+    "buttonStyle": "outline"
   },
   "layoutVariant": {
-    "homepage": "cards-only",
-    "articleGrid": "2-column",
+    "homepage": "magazine",
+    "articleGrid": "3-column",
     "newsletter": "footer",
-    "headerLayout": "centered",
-    "footerLayout": "simple",
+    "headerLayout": "left-aligned",
+    "footerLayout": "centered",
     "sidebarPosition": "none",
-    "articleLayout": "magazine",
+    "articleLayout": "classic",
     "adZones": {
       "aboveFold": true,
       "inFeed": true,
-      "inFeedFrequency": 4,
+      "inFeedFrequency": 5,
       "sidebar": false,
       "inArticle": true,
-      "inArticleFrequency": 400,
+      "inArticleFrequency": 300,
       "footer": true,
-      "betweenSections": false
+      "betweenSections": true
     }
   }
 }
