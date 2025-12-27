@@ -1,10 +1,11 @@
 ---
 title: "Xiaomi vs Realme: The Ultimate Budget Smartphone Comparison"
-date: "2025-12-25"
+date: "2025-12-27"
 description: "# Xiaomi vs Realme: The Ultimate Budget Smartphone Comparison  If you're looking for a smartphone under 500 SAR in Saudi Arabia, two names inevitably rise to th"
 author: "Editorial Team"
 category: "comparisons"
 tags: ["Xiaomi vs Realme","budget phone comparison","Saudi Arabia smartphones"]
+image: "/images/xiaomi-vs-realme-budget.jpg"
 ---
 
 # Xiaomi vs Realme: The Ultimate Budget Smartphone Comparison
