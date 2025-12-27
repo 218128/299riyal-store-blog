@@ -1,8 +1,8 @@
 <svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="og-gradient-1766863023485" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#3b82f6"/>
-      <stop offset="100%" style="stop-color:#10b981"/>
+    <linearGradient id="og-gradient-1766863122344" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1"/>
+      <stop offset="100%" style="stop-color:#22c55e"/>
     </linearGradient>
     <pattern id="og-pattern" patternUnits="userSpaceOnUse" width="60" height="60">
       <circle cx="30" cy="30" r="1.5" fill="white" fill-opacity="0.1"/>
@@ -10,14 +10,14 @@
   </defs>
   
   <!-- Background -->
-  <rect width="1200" height="630" fill="url(#og-gradient-1766863023485)"/>
+  <rect width="1200" height="630" fill="url(#og-gradient-1766863122344)"/>
   <rect width="1200" height="630" fill="url(#og-pattern)"/>
   
   <!-- Content card -->
   <rect x="60" y="100" width="1080" height="430" rx="24" fill="white" fill-opacity="0.95"/>
   
   <!-- Logo area -->
-  <rect x="100" y="140" width="80" height="80" rx="16" fill="url(#og-gradient-1766863023485)"/>
+  <rect x="100" y="140" width="80" height="80" rx="16" fill="url(#og-gradient-1766863122344)"/>
   <text x="140" y="195" text-anchor="middle" 
         font-family="'Inter', sans-serif" font-size="36" font-weight="700" 
         fill="white">29</text>
@@ -31,9 +31,9 @@
         fill="#6b7280">Your trusted source for quality content</text>
   
   <!-- Decorative line -->
-  <rect x="100" y="400" width="200" height="4" rx="2" fill="url(#og-gradient-1766863023485)"/>
+  <rect x="100" y="400" width="200" height="4" rx="2" fill="url(#og-gradient-1766863122344)"/>
   
   <!-- URL hint -->
   <text x="100" y="480" font-family="'Inter', sans-serif" font-size="24" font-weight="500" 
-        fill="#3b82f6">Read more →</text>
+        fill="#6366f1">Read more →</text>
 </svg>
