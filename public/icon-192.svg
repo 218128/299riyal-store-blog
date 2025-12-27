@@ -1,11 +1,11 @@
 <svg viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="icon-gradient-1766188841464" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="icon-gradient-1766862816829" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#14b8a6"/>
       <stop offset="100%" style="stop-color:#f472b6"/>
     </linearGradient>
   </defs>
-  <rect width="192" height="192" rx="32" fill="url(#icon-gradient-1766188841464)"/>
+  <rect width="192" height="192" rx="32" fill="url(#icon-gradient-1766862816829)"/>
   <text x="96" y="125" text-anchor="middle" 
         font-family="'Inter', 'Segoe UI', sans-serif" 
         font-size="86" font-weight="700" 

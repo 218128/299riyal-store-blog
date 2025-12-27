@@ -1,5 +1,6 @@
 import { getArticleBySlug, getAllArticles } from '../../lib/content';
 import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 export async function generateStaticParams() {
     const articles = getAllArticles();
@@ -79,7 +80,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             </div>
             
             <div className="article-content">
-                <ReactMarkdown>{article.content}</ReactMarkdown>
+                <ReactMarkdown remarkPlugins={[remarkGfm]}>{article.content}</ReactMarkdown>
             </div>
             
             {/* Social Share */}
