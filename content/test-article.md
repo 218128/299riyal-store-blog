@@ -5,6 +5,7 @@ description: "# How to Save Money on Electronics  Finding great deals on electro
 author: "Editorial Team"
 category: "how-to"
 tags: ["electronics","shopping","savings"]
+image: "/images/test-article.jpg"
 ---
 
 # How to Save Money on Electronics

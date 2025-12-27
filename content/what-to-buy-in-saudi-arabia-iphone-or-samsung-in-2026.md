@@ -1,10 +1,11 @@
 ---
 title: "What to buy in Saudi Arabia Iphone or Samsung in 2026"
-date: "2025-12-25"
+date: "2025-12-27"
 description: "Deciding between iPhone and Samsung in Saudi Arabia for 2026? This comprehensive guide analyzes budget, features, resale value, and market trends to help you ma"
 author: "Editorial Team"
 category: "how-to"
 tags: []
+image: "/images/what-to-buy-in-saudi-arabia-iphone-or-samsung-in-2026.jpg"
 ---
 
 ## What to Buy in Saudi Arabia: iPhone or Samsung in 2026? Your Ultimate Budget Tech Guide

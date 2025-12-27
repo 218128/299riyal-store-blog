@@ -1,10 +1,11 @@
 ---
 title: "Where to buy cheap smartphones in Saudi Arabia"
-date: "2025-12-25"
+date: "2025-12-27"
 description: "Discover where to buy cheap smartphones in Saudi Arabia. Uncover top online and offline stores, find budget deals, and smart tips for affordable mobiles in KSA!"
 author: "Editorial Team"
 category: "how-to"
 tags: []
+image: "/images/where-to-buy-cheap-smartphones-in-saudi-arabia.jpg"
 ---
 
 ## Where to Buy Cheap Smartphones in Saudi Arabia: Your Ultimate Guide to Budget Tech
