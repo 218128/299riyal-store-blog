@@ -1,16 +1,16 @@
 {
-  "seed": "default-1766862923299-5duna0",
+  "seed": "default-1766863023484-ppshjc",
   "niche": "default",
-  "mood": "elegant",
-  "generatedAt": 1766862923299,
+  "mood": "modern",
+  "generatedAt": 1766863023484,
   "colors": {
-    "primary": "#6366f1",
-    "primaryLight": "#898cff",
-    "primaryDark": "#3d40cb",
-    "secondary": "#22c55e",
-    "secondaryLight": "#48eb84",
-    "cta": "#ef4444",
-    "ctaHover": "#d62b2b",
+    "primary": "#3b82f6",
+    "primaryLight": "#61a8ff",
+    "primaryDark": "#155cd0",
+    "secondary": "#10b981",
+    "secondaryLight": "#36dfa7",
+    "cta": "#f97316",
+    "ctaHover": "#e05a00",
     "background": "#ffffff",
     "backgroundAlt": "#f8fafc",
     "surface": "#ffffff",
@@ -21,36 +21,36 @@
     "warning": "#f59e0b",
     "error": "#ef4444",
     "info": "#3b82f6",
-    "gradientStart": "#4f46e5",
-    "gradientEnd": "#16a34a",
-    "gradientDirection": "135deg"
+    "gradientStart": "#2563eb",
+    "gradientEnd": "#059669",
+    "gradientDirection": "180deg"
   },
   "typography": {
-    "headingFont": "Crimson Pro",
-    "bodyFont": "Work Sans"
+    "headingFont": "Noto Sans",
+    "bodyFont": "Noto Serif"
   },
   "components": {
-    "headerStyle": "static",
-    "cardStyle": "minimal",
-    "buttonStyle": "outline"
+    "headerStyle": "sticky",
+    "cardStyle": "modern",
+    "buttonStyle": "solid"
   },
   "layoutVariant": {
     "homepage": "magazine",
-    "articleGrid": "3-column",
+    "articleGrid": "2-column",
     "newsletter": "footer",
     "headerLayout": "left-aligned",
-    "footerLayout": "centered",
+    "footerLayout": "simple",
     "sidebarPosition": "none",
-    "articleLayout": "classic",
+    "articleLayout": "magazine",
     "adZones": {
       "aboveFold": true,
       "inFeed": true,
       "inFeedFrequency": 5,
       "sidebar": false,
       "inArticle": true,
-      "inArticleFrequency": 300,
+      "inArticleFrequency": 500,
       "footer": true,
-      "betweenSections": true
+      "betweenSections": false
     }
   }
 }
